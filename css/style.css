@@ -1,0 +1,84 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+.logo {
+	height: 40px;
+	margin-right: 50px;
+}
+.intro {
+	background-image: url("../images/truck1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+.content {
+	width: 100%;
+}
+.intro-text {
+  width: 350px;
+  height: 220px;
+  text-align: center;
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  color: white;
+  font-size: 30px;
+}
+.big-Text {
+	font-size: 36px;
+	color: black;
+}
+.brand-Text {
+	font-size: 62px;
+	color: #ffff29cc;
+}
+.footer {
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #343a40;
+	margin-bottom: 0;
+    clear: both;
+    position: relative;
+    margin-top: -0px;
+    color : white;
+}
+.phoneNumber {
+	color: lightpink;
+	font-size: 30px;
+}
+.row {
+	margin: 0;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.carousel-caption {
+  width: 350px;
+  height: 220px;
+  text-align: center;
+  margin-top: 2%;
+  margin-right: 2%;
+  font-size: 20px;
+  bottom: auto;
+  top: 0px;
+  left: auto;
+  right: 0px;
+}
+.img-carousel { min-width: 800px;}
+@media (max-width: 768px) { 
+    .carousel .carousel-inner .item {min-height: 500px;}
+}
+@media screen and (max-width: 320px) {
+  .intro-text {
+  width: 300px;
+  margin-right: 0px;
+  font-size: 20px;
+  }
+}

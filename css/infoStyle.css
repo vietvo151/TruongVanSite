@@ -1,0 +1,42 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+.logo {
+	height: 40px;
+	margin-right: 50px;
+}
+.footer {
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #343a40;
+	margin-bottom: 0;
+    clear: both;
+    position: relative;
+    margin-top: -0px;
+    color : white;
+}
+.phoneNumber {
+	color: lightpink;
+	font-size: 30px;
+}
+.row {
+	margin: 0;
+}
+.service-box {
+	padding: 5px;
+}
+.service-box h5 {
+	font-style: italic;
+}
+div.service-box:hover {
+	box-shadow: 0  5px 10px grey;
+}
+.content {
+	margin: 0 auto;
+}
+.content h1 {
+	padding-left: 10px;
+	padding-top: 20px;
+}
